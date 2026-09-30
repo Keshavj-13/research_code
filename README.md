@@ -2,8 +2,6 @@
 
 This repository contains the simulation pipelines, numerical notebooks, and manuscript assets for predictive battery thermal management under high-demand electric vehicle drive cycles. The framework integrates physics-informed multi-zone thermal dynamics with deep reinforcement learning to coordinate distributed coolant mass flows, mitigating spatial temperature gradients and suppressing peak cell temperatures with minimal parasitic pumping power.
 
-Companion paper: *Predictive Multi-Zone Reinforcement Learning Control for Battery Thermal Management*, Keshav Juneja and Mukesh Singh.
-
 ---
 
 ## Technical Demonstrations
@@ -108,15 +106,3 @@ Launch Jupyter to inspect the thermal simulation pipeline and step-by-step reinf
 jupyter lab Manuscript_Evaluation_Recovered.ipynb
 ```
 
----
-
-## Citation
-
-```bibtex
-@article{juneja2024predictive,
-  title={Predictive Multi-Zone Reinforcement Learning Control for Battery Thermal Management},
-  author={Juneja, Keshav and Singh, Mukesh},
-  year={2024},
-  journal={Working Paper}
-}
-```
